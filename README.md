@@ -6,7 +6,28 @@ explainability and a simple keyword-based bias audit, plus a Gradio demo.
 
 Dataset: [Jigsaw Toxic Comment Classification Challenge](https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge/data)
 (already included as `data/jigsaw-toxic.zip`).
+## Download Data and Models
 
+- **Data:** [Download the Data Folder](https://drive.google.com/drive/folders/1Bg5jquxWE6XwjluGgfN-G9MDxK0FU_fK?usp=sharing)
+
+- **Models:** [Download the Models Folder](https://drive.google.com/drive/folders/1NUR_JFodAMswSsz1yn6EHcve6XloUuVg?usp=sharing)
+
+> **Important:** After downloading, place both the `data` and `models` folders directly inside the main project folder:
+>
+> `Advance-Artificial-Intelligence-Project(Group3)/`
+>
+> The final structure should be:
+>
+> ```text
+> Advance-Artificial-Intelligence-Project(Group3)/
+> ├── data/
+> ├── models/
+> ├── notebooks/
+> ├── reports/
+> ├── app.py
+> ├── requirements.txt
+> └── README.md
+> ```
 ## Project structure
 
 ```
@@ -26,7 +47,6 @@ reports/
   metrics.json                - all models' metrics, built up notebook by notebook
   *.png                       - saved comparison/audit charts
 app.py                        - Gradio demo
-run_app.py                    - one-shot setup + launch script for the demo (see Setup below)
 requirements.txt
 ```
 
